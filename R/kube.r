@@ -39,7 +39,7 @@ kube <- function(number_sections = FALSE,
                  pandoc_args = NULL,
                  ...) {
 
-  toc <- FALSE
+  toc <- TRUE
   toc_depth <- 3
   theme <- NULL
   template <- "default"
